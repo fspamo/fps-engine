@@ -97,7 +97,7 @@ void processInput(GLFWwindow* window) {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, 1);
 
-    // movement 
+    // movemint 
     float moveSpeed = playerSpeed;
 	float yawRad = -playerYaw * M_PI / 180.0f;
     
