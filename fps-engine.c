@@ -99,7 +99,7 @@ void processInput(GLFWwindow* window) {
 
     // movement 
     float moveSpeed = playerSpeed;
-    float yawRad = playerYaw * M_PI / 180.0f;
+	float yawRad = -playerYaw * M_PI / 180.0f;
     
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
         playerX += sin(yawRad) * moveSpeed;
