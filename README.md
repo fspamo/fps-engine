@@ -1,3 +1,3 @@
 Just open the terminal 
-> make
+> make then 
 > ./fps-engine
